@@ -105,7 +105,7 @@ def create_individual_page(giver, receiver, random_string):
             align-items: center;
             padding: 20px;
             position: relative;
-            overflow: hidden;
+            overflow-x: hidden;
         }}
 
         /* Snowflakes animation */
@@ -339,7 +339,7 @@ def create_individual_page(giver, receiver, random_string):
             button.style.display = 'none';
         }}
     </script>
-    <div style="position: fixed; bottom: 5px; right: 10px; font-size: 10px; color: #999; opacity: 0.5;">v1.0.0</div>
+    <div style="position: fixed; bottom: 5px; right: 10px; font-size: 10px; color: #999; opacity: 0.5;">v1.0.1</div>
 </body>
 </html>"""
 
@@ -371,7 +371,7 @@ def create_landing_page():
             align-items: center;
             padding: 20px;
             position: relative;
-            overflow: hidden;
+            overflow-x: hidden;
         }
 
         /* Snowflakes animation */
@@ -484,7 +484,7 @@ def create_landing_page():
             ✨ 🌟 ✨
         </div>
     </div>
-    <div style="position: fixed; bottom: 5px; right: 10px; font-size: 10px; color: #999; opacity: 0.5;">v1.0.0</div>
+    <div style="position: fixed; bottom: 5px; right: 10px; font-size: 10px; color: #999; opacity: 0.5;">v1.0.1</div>
 </body>
 </html>"""
 
