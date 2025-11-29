@@ -1,0 +1,34 @@
+# Secret Santa - Fichiers sensibles à NE JAMAIS commiter
+
+# Fichier de mapping (contient toutes les correspondances Secret Santa)
+secret_santa_mapping.json
+secret_santa_mapping.json.backup
+
+# Messages WhatsApp (contient tous les liens uniques)
+messages_whatsapp.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
